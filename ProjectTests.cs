@@ -4,12 +4,19 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Smallprojects
 {
     [TestClass]
-    public class UnitTest1
+    public class ProjectTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ProjectCreate()
         {
             Assert.IsTrue(true, "Small project created");
+        }
+
+
+        [TestMethod]
+        public void ProjectLoad()
+        {
+            Assert.IsTrue(false, "Small project loaded");
         }
     }
 }
